@@ -13,12 +13,33 @@
   margin-right: auto;
   width: 15%;
   text-align: center;
+}
 
+.centerinline{
+  text-align: center;
+  display: inline;
 }
 
 *{
     color: red;
-    background-color: #1B1212;
+    background-color: black;
+    font-family: "deadly-killers";
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+@font-face {
+    font-family: "deadly-killers";
+    src: url("font/deadly-killers.ttf");
+  }
+
+@font-face {
+  font-family: "norse";
+  src: url("font/Norsebold.otf");
+}
+
+.otherfont{
+  font-family: "norse";
 }
 
 #group{
@@ -33,31 +54,36 @@
   width: 35%;
 }
 
-.merchimg{
-  width: 35%;
+.tablecenter{
+  margin-left: 250px;
 }
 
-table td{
-  border: 1px solid white;
-  margin-left: auto;
-  margin-right: auto;
+.tableimg{
+  margin-left: 250px;
 }
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+.videocenter{
+  margin-left: 322px;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-  
+.contactimg{
+  width: 100px;
+  display: inline;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+.musicimg{
+  width:100px;
 }
+
+.amusicimg{
+  height: 100px;
+}
+
+.about{
+  text-align: justify;
+  text-align-last: center;
+}
+
+/*#logo{
+*/
+
