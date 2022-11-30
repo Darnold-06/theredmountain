@@ -7,11 +7,17 @@
   content: " ";
 }
 
-.center {
+.logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 15%;
+}
+
+.centerbuy{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -45,6 +51,9 @@
 
 #group{
   width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center2 {
@@ -74,7 +83,7 @@
 
 .musicimg{
   width:100px;
-  margin-left: 90px;
+  margin-left: 6.2%;
 }
 
 .centertext{
