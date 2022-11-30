@@ -1,5 +1,5 @@
 .breadcrumb > li{
-    display: inline;
+  display: inline;
 }
 
 .breadcrumb li+li::before {
@@ -56,24 +56,21 @@
   margin-right: auto;
 }
 
-.center2 {
+#poster {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   width: 35%;
 }
 
-.tablecenter{
+.table{
   margin-left: 250px;
 }
 
-.tableimg{
-  margin-left: 250px;
-}
-
-.videocenter{
-  margin-left: 322px;
+#videocenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contactimg{
@@ -82,7 +79,7 @@
 }
 
 .musicimg{
-  width:100px;
+  width: 100px;
   margin-left: 6.2%;
 }
 
@@ -91,7 +88,7 @@
   text-align-last: center;
 }
 
-.alphaimg{
+#cover{
   display: block;
   margin-left: auto;
   margin-right: auto;
