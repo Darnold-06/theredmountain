@@ -1,5 +1,5 @@
 # theredmountain
 
-David Arnold - Backend Devolper - coded the base of each page & CSS
+David Arnold - Backend Devolper - coded all pages & CSS
 
-Jack Mullins -  - 
+Jack Mullins - Frontend Devolper - designed each page and provide all information, images, links, and videos
