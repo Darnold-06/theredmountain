@@ -3,7 +3,7 @@
 }
 
 .breadcrumb li+li::before {
-	padding: 52px;
+	padding: 50px;
   content: " ";
 }
 
@@ -32,9 +32,6 @@
 *{
     color: red;
     background-color: black;
-    font-family: "deadly-killers";
-    font-size: 25px;
-    letter-spacing: 3px;
 }
 
 @font-face {
@@ -47,9 +44,22 @@
   src: url("font/Norsebold.otf");
 }
 
-.altfont{
+.killerfont{
+  font-family: "deadly-killers";
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.norsefont{
   font-family: "norse";
   font-size: 30px;
+}
+
+.warning{
+  text-align: justify;
+  text-align-last: center;
 }
 
 #group{
@@ -66,15 +76,16 @@
 
 .contactimg{
   width: 100px;
-  margin-left: 14.3%;
+  margin-left: 14.5%;
 }
 
 .musicimg{
   width: 100px;
-  margin-left: 6.2%;
+  margin-left: 6.5%;
 }
 
-.centertext{
+#contact{
+  font-size: x-large;
   text-align: justify;
   text-align-last: center;
 }
