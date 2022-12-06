@@ -2,6 +2,14 @@
   display: inline;
 }
 
+.nav{
+  width: 14%;
+}
+
+html { 
+  background: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(12,91,255,1) 50%, rgba(0,0,0,1) 65%);
+}
+
 .breadcrumb li+li::before {
 	padding: 50px;
   content: " ";
@@ -31,7 +39,7 @@
 
 *{
     color: red;
-    background-color: black;
+    
 }
 
 @font-face {
@@ -72,6 +80,7 @@
 
 .table{
   margin-left: 250px;
+  background-color: black;
 }
 
 .contactimg{
@@ -103,9 +112,20 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 5%;
+  width: 15%;
 }
 
 #bigtext{
   font-size: xx-large;
+}
+
+.blkdrop{
+  font-family: "deadly-killers";
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-align-last: center;
+  background-color: black;
+  margin-left: 500px;
+  margin-right: 500px;
 }
