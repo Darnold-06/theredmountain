@@ -8,6 +8,7 @@
 
 html { 
   background: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(12,91,255,1) 50%, rgba(0,0,0,1) 65%);
+  border: 2px solid red;
 }
 
 .breadcrumb li+li::before {
